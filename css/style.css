@@ -1,0 +1,20 @@
+body{
+	margin: 0;
+	padding: 0
+}
+
+.div2{
+margin-top: 100vh;
+}
+
+
+@media (max-width: 768px)
+{
+	
+
+.div2{
+margin-top: 50vh;
+}
+
+
+}

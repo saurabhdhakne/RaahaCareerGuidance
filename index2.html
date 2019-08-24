@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Raaha</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+  
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<link rel="stylesheet" href="css/style.css">
+<style type="text/css">
+
+
+.topnav {
+  overflow: hidden;
+  background-color: snow;
+ 
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.rightme{
+	float: right;
+}
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+.active {
+  background-color: grey;
+  color: white;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+  }
+}
+
+
+</style>
+
+
+</head>
+<body>
+
+
+<div class="topnav" id="myTopnav">
+  <a href="#home" class="active">RAAHA</a>
+  <div class="col-md-4 col-lg-4 col-xs-0 col-sm-0"></div>
+  <a href="#career-options.php">Options</a>
+  <a href="#contact">Contact</a>
+  <a href="#about">About</a>
+ 	
+ <div class="rightme">
+ 	<a href="#Login">Login</a>
+ 	<a href="#Signup">SignUp</a>
+ </div>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+
+			<div class="cop">
+			<a href="career-options.php">
+			<img src="images/options.png"  >
+				</a>
+				</div>
+	<div class="divMain text-center ">
+				
+			
+		</div>
+
+		<div class="container div2">
+			<h1 class="text-center">HOW DO I CHOOSE THE RIGHT CAREER?</h1><br>
+			<h3 class="text-center">Get answers to all these questions and much more.</h3><br>
+<hr>
+			<div class="col-md-4 col-lg-4 col-sm-12 col-xs-12 text-center">
+				<h2>Ideal Career Test
+				</h2>
+				<br>
+				<span class="glyphicon glyphicon-education"></span>
+				<h4>What Career is Right For me</h4>
+				<br>
+				
+				<input class="btn btn-info" type="button" value="Test Yourself" name="">
+
+			</div>
+		
+
+			<div class="col-md-4 col-lg-4 col-sm-12 col-xs-12 text-center">
+				<h2>Engineering Branch
+				</h2>
+				<br>
+				<span class="glyphicon glyphicon-send"></span>
+				<h4>Which Engineering Branch is Right for me.</h4>
+				<br>
+				
+				<input class="btn btn-info" type="button" value="For 11th & 12th" name="">
+
+			</div>
+		
+			
+		
+			<div class="col-md-4 col-lg-4 col-sm-12 col-xs-12 text-center">
+				<h2>Stream Selector
+				</h2>
+				<br>
+				<span class="glyphicon glyphicon-transfer"></span>
+				<h4>Which Stream Should I Choosed.</h4>
+				<br>
+				
+				<input class="btn btn-info" type="button" value="For Stream" name="">
+
+			</div>
+
+		</div>
+
+
+<div class="col-md-6 col-lg-6 col-sm-12 col-xs-12 mainAbout">
+		<h1>About</h1><br>
+		<h4>This is About Info.This is About Info.This is About Info.This is About Info.
+			This is About Info.This is About Info.This is About Info.This is About Info.<br>
+			This is About Info.This is About Info.This is About Info.This is About Info.
+			This is About Info.This is About Info.This is About Info.This is About Info.<br>
+			This is About Info.This is About Info.This is About Info.This is About Info.
+			This is About Info.This is About Info.This is About Info.This is About Info.<br>
+		</h4>
+
+	</div>
+	<div class="col-md-6 col-lg-6 col-sm-12 col-xs-12 mainGet">
+		<h1>Get In Touch</h1>
+					<form action="/action_page.php">
+				<div class="form-group">
+				<label for="email">Email address:</label>
+				<input type="email" class="form-control" id="email">
+				</div>
+				<div class="form-group">
+				<label for="msg">Message:</label>
+				<input type="textarea" class="form-control" id="msg">
+				</div>
+				<button type="submit" class="btn btn-primary">Submit</button>
+				</form>
+
+				<br><br>
+
+	<hr>
+				<br>
+
+
+				
+		<a href="#"><li><span class="fa fa-instagram"></span> Instagram</li></a>
+	<a href="#"><li><span class="fa fa-facebook-official"></span> Facebook</li></a>
+	<a href="#" ><li><span class="fa fa-envelope"></span> Email</li> </a>
+	<a href="#"><li><span class="fa fa-whatsapp"></span> Whatsapp</li></a>
+
+
+		
+
+	</div>	
+
+
+</div>
+
+
+</body>
+</html>
